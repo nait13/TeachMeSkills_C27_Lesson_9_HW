@@ -47,7 +47,7 @@ public class Runner {
             scanner.close();
             Utils.transferToCard(card1, card2, transferAmount, userCvv);
 
-            System.out.println("END");
+            System.out.println("ENDS");
         }
     }
 }
