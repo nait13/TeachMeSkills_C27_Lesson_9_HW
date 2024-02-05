@@ -4,7 +4,7 @@ package com.teachmeskills.lesson9_hw.task_1.figure;
  This class implements the function of calculating area and calculating perimeter for a circle
  */
 
-public class Circle extends Figure{
+public final class Circle extends Figure{
     final double PI = 3.14;
 
     double radius;

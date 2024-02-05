@@ -4,7 +4,7 @@ package com.teachmeskills.lesson9_hw.task_1.figure;
  This class implements the function of calculating area and calculating perimeter for a triangle
  */
 
-public class Triangle extends Figure {
+public final class Triangle extends Figure {
     double triangleSides_A;
     double triangleSides_B;
     double triangleSides_C;

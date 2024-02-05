@@ -1,8 +1,11 @@
 package com.teachmeskills.lesson9_hw.task_2.runner;
 
 import com.teachmeskills.lesson9_hw.task_2.matrix.Matrix;
-import com.teachmeskills.lesson9_hw.task_2.utils.Utils;
+import com.teachmeskills.lesson9_hw.task_2.util.Utils;
 
+/**
+ * This class runs the project
+ */
 public class Runner {
     public static void main(String[] args) {
         int[][] arr1 = {

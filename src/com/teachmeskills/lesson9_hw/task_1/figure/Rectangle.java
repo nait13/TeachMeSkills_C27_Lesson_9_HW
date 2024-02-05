@@ -4,7 +4,7 @@ package com.teachmeskills.lesson9_hw.task_1.figure;
  This class implements the function of calculating area and calculating perimeter for a rectangle
  */
 
-public class Rectangle extends Figure {
+public final class Rectangle extends Figure {
     double rectangleSides_A;
 
     double rectangleSides_B;

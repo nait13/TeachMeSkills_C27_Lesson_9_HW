@@ -2,6 +2,9 @@ package com.teachmeskills.lesson9_hw.task_3.client;
 
 import com.teachmeskills.lesson9_hw.task_3.card.BaseCard;
 
+/**
+ * This is a class for creating a Client instance
+ */
 public class Client {
     private String name;
     private String surName;
@@ -35,13 +38,20 @@ public class Client {
         this.houseNumber = houseNumber;
         this.cards = cards;
     }
-
+    public void showInformationClient(){
+        System.out.println(
+                getName() + " " + getSurName() + "\n" + "Карт в наличие: " + showCardLength()
+        );
+    }
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+    public int showCardLength(){
+        return getCards().length;
     }
 
     public String getSurName() {

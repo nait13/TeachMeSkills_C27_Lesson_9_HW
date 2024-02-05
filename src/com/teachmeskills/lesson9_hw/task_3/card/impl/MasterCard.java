@@ -1,10 +1,11 @@
 package com.teachmeskills.lesson9_hw.task_3.card.impl;
 
 import com.teachmeskills.lesson9_hw.task_3.card.BaseCard;
-
+/**
+ * The class is a MasterCard card template
+ */
 public class MasterCard extends BaseCard {
     String country;
-
     public MasterCard(String cardNumber,
                       int id,
                       int cvcCvv,
