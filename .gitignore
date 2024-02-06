@@ -2,8 +2,6 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-/TeachMeSkills_C27_Lesson_7_HW.iml
-/TeachMeSkills_C27_Lesson_9_HW.iml
 /.idea/
 
 ### Eclipse ###
